@@ -1,0 +1,66 @@
+/* .blue{
+    color:blue;
+}
+
+.div{
+    border: 2px solid black;
+    background-color:pink;
+    height:500px;
+    width:500px;
+} */
+
+/* body{
+    text-align:center;
+    
+}
+div{
+    height:200px;
+    width:500px;
+    border:1px solid black;
+    margin:0 auto;
+    
+    
+    
+}
+.cgw-ext {
+  display: none !important;
+} */
+
+.card {
+  width: 350px;
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.logo {
+  width: 80px;
+}
+
+.card-body p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.card-footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.qr-code {
+  width: 100px;
+}

@@ -1,0 +1,18 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "This is my first projrct",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "1234"
+  ],
+  "author": "sadat ali",
+  "license": "ISC",
+  "dependencies": {
+    "figlet": "^1.8.1",
+    "give-me-a-joke": "^0.5.1"
+  }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/server">
+        <div>
+        <input type="checkbox" id="age" name="age" >
+        <label for="age">I am 18+ </label><br>
+        <button>submit</button>
+        <button>submit</button>
+    </div>
+    <hr>
+      <div>
+        choose your profession:
+        <select name="profession" id="profession">
+          <option>select your choice</option>
+          <option value="stu">student</option>
+          <option value="eng">Engineer</option>
+          <option value="law">lawer</option>
+          <option value="busi" selected>businessman</option>
+        </select>
+      </div>
+      <button type="submit">submit</button>
+    <hr>
+      <label for="range">select your volume level:</label>
+      <input type="range" id="range" min="0" max="100" name="range" step="10">
+      <button type="submit">submit</button>
+      <hr>
+      <label for="feedback">write your own feedback</label>
+      <textarea id="feedback" placeholder="write your feedback" rows="5"></textarea>
+    </form>
+  </body>
+</html>
