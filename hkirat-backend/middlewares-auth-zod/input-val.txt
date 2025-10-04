@@ -1,0 +1,34 @@
+🔹 What is Input Validation?
+
+Input validation is the process of checking and sanitizing data provided by users (or external sources) before using it in your system.
+It ensures the data is correct, safe, and expected.
+
+👉 Think of it as a security guard at the entrance: only letting in valid and safe data.
+
+
+
+
+🔹 Why is Input Validation Important?
+
+
+Security:-
+
+1.Prevents SQL Injection (e.g., DROP TABLE users;)
+
+2.Prevents XSS attacks (malicious <script> tags injected in forms).
+
+3.Prevents API abuse by rejecting malformed data.
+
+
+
+Data Integrity:-
+
+1.Ensures only valid, expected values go into the database.
+
+2.Example: User’s age should be a number, not "twenty".
+
+
+
+Error Handling:-
+
+Helps return meaningful error messages when data is invalid.

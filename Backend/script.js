@@ -10,5 +10,9 @@
 // }
 
 
+// const info = require("./math");
+// console.log(info);
+
+
 const info = require("../fruits");
 console.log(info);

@@ -1,0 +1,36 @@
+1. Middleware
+
+Middleware is software that sits between the client request and the server response. Think of it as a chain of small functions that can process, modify, or reject requests before they reach your main application logic.
+
+🔹 In Web Development:
+
+Middleware functions usually run before the actual endpoint/controller is executed.
+
+They can be used to perform tasks like:
+
+Logging → recording request details (e.g., IP, time, route).
+
+Authentication → checking if a user is logged in.
+
+Authorization → verifying user permissions.
+
+Error handling → catching exceptions and formatting error responses.
+
+Body parsing → converting raw request data (JSON, form-data) into usable objects.
+
+
+example:
+
+app.use((req, res, next) => {
+  console.log(`${req.method} ${req.url}`);
+  next(); // pass control to next middleware/route
+});
+
+Here, app.use() attaches middleware, and next() moves to the next step in the chain.
+
+👉 So, middleware acts like filters or checkpoints for incoming requests.
+
+
+Other use cases of middleware (assignment) = 
+1. Count the number of requests 
+2. Find the average time your server is taking to handle requests
