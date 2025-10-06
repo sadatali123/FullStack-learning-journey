@@ -14,7 +14,7 @@ const User = mongoose.model("User", {
 });
 
 const app = express();
-app.use(express.json());
+app.use(express.json()); 
 
 function userExists(username, password) {
   // should check in the database
